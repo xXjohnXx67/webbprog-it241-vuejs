@@ -67,10 +67,9 @@
 <p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
 
 <div id="app2">
-  <div></div>
-  <img v-for="x in manyFoods" v-bind:src="x">
-  </div>
+  <img v-for="(x, index) in manyfoods" :key="index" :src="x">
 </div>
+
 
 
 
