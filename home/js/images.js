@@ -9,7 +9,6 @@
         'https://www.w3schools.com/vue/img_fish.svg',
         'https://www.w3schools.com/vue/img_pizza.svg',
         'https://www.w3schools.com/vue/img_rice.svg'
-
      ]
     }
    }
